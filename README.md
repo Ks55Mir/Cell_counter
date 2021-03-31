@@ -1,11 +1,12 @@
-# Cell_counter
-Biological tool to count the number of cells on the photo
+## Cell_counter
+#Biological tool to count the number of cells on the photo
 
 ![](https://j.gifs.com/0YlJZ3.gif)
 
+Для того чтобы анализировать митотический индекс, приходится считать количество клеток в фазе деления и в фазе покоя, данная программа облегчает эту задачу, позволяя оценить общее количество клеток на фотографии. Этот проект был вдохновлен моей уставшей от кликанья мышкой рукой и следующей веткой на [**stackoverflow**](https://stackoverflow.com/questions/58751101/count-number-of-cells-in-the-image).
 
+Здесь выложены следующие варианты программы:
+`SuperCounter.py` с некоторыми графическими возможностями, как на гифке выше;
+`cell_counter.py` - неграфический скрипт для более быстрой работы, когда уже знаешь необходимые параметры. 
 
-There're three variants of the tool:
-1. Jupyter notebook contains the code explanation;
-2. SuperCounter.py has some graphical trackbars to facilitate choosing some parameters;
-3. cell_counter.py is an usuall script, without a graphical interface.
+Более подробно о работе программы можно почитать в `Jupyter notebook`.
